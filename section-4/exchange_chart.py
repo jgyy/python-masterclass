@@ -1,5 +1,5 @@
 """
-This is a script about exchange chart
+This is a script about exchange chart, to clean up python 2 old code
 """
 import datetime
 
@@ -34,7 +34,7 @@ def generate_year_month(now):
         start_month += 12
         start_year -= 1
 
-    for count in range(12):
+    for _ in range(12):
         yield start_year, start_month
         start_month += 1
         if start_month > 12:

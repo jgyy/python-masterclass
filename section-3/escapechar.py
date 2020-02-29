@@ -1,5 +1,6 @@
 """
-This script learns about escape characters
+This script learns about escape characters.
+Even more practice on the document string
 """
 SPLIT_STRING = "This string has been \nsplit over\nseveral\nlines"
 print(SPLIT_STRING)
